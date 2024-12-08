@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This project utilizes a diverse technology stack to provide functionality and integration with various services. Below is a list of the main technologies used and their purposes.
 
-## Getting Started
+## Technology Stack
 
-First, run the development server:
+### APIs and Integrations
+- Slack — Integration for notifications and workflow automation.
+- Notion API — Interaction with Notion for managing databases and notes.
+- Google API (including Drive API) — Integration with Google services such as Google Drive.
+- Discord API — Automation and integration with Discord servers.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Authentication and Authorization
+- Clerk Auth — User management and authentication.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Networking Tools
+- Ngrok — Tunneling and webhook testing.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Databases and Data Management
+- Neon Tech — Server platform for working with PostgreSQL.
+- PostgreSQL — Relational database for storing and managing data.
+- Uploadcare — File uploading and management.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Frontend
+- ShadCN — Component library for building user interfaces.
+- Sonner — Notifications and pop-up messages.
+- ReactFlow — Building interactive diagrams and graphs.
 
-## Learn More
+### Automation and Payment Systems
+- Cron-job — Task scheduling and process automation.
+- Stripe — Payment system integration for transaction processing.
 
-To learn more about Next.js, take a look at the following resources:
+## Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the repository:
+  
+   git clone https://github.com/your-repo-name.git
+   
+2. Install dependencies:
+  
+   npm install
+   
+3. Configure environment variables in the .env file for API and database connections.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. Start the project:
+  
+   npm start
+   
+## Contributing
+If you wish to make changes, fork the repository, make your changes, and submit a pull request. We welcome your contributions!
