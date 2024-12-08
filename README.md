@@ -32,17 +32,17 @@ This project utilizes a diverse technology stack to provide functionality and in
 
 1. Clone the repository:
   
-   git clone https://github.com/your-repo-name.git
+   git clone https://github.com/Creator-Art-Life/inferno.git
    
 2. Install dependencies:
   
-   npm install
+   bun install
    
 3. Configure environment variables in the .env file for API and database connections.
 
 4. Start the project:
   
-   npm start
+   bun run dev
    
 ## Contributing
 If you wish to make changes, fork the repository, make your changes, and submit a pull request. We welcome your contributions!
