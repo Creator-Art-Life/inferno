@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@clerk/clerk-sdk-node": "^5.0.74",
     "@clerk/nextjs": "^6.6.0",
     "@hookform/resolvers": "^3.9.1",
     "@notionhq/client": "^2.2.15",
@@ -45,7 +44,6 @@
     "react-resizable-panels": "^2.1.7",
     "reactflow": "^11.11.4",
     "sonner": "^1.7.0",
-    "stripe": "^17.4.0",
     "tailwind-merge": "^2.5.5",
     "tailwindcss-animate": "^1.0.7",
     "uuid": "^11.0.3",
