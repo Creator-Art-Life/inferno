@@ -68,7 +68,7 @@ const ContentBasedOnTitle = ({
     reqGoogle()
   }, [])
 
-  // @ts-ignore
+  //@ts-expect-error some text for vercel
   const nodeConnectionType: any = nodeConnection[nodeMapper[title]]
   if (!nodeConnectionType) return <p>Not connected</p>
 

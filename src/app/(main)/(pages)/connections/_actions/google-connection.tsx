@@ -22,7 +22,7 @@ export const getFileMetaData = async () => {
     userId,
     'oauth_google'
   )
-  //@ts-ignore
+  //@ts-expect-error some text for vercel
   const accessToken = clerkResponse[0].token
 
   oauth2Client.setCredentials({
