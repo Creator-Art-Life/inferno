@@ -4,11 +4,12 @@ import { db } from '@/lib/db'
 import Stripe from 'stripe'
 import BillingDashboard from './_components/billing-dashboard'
 
-type Props = {
+
+type PageProps = {
   searchParams?: { [key: string]: string | undefined }
 }
 
-const Billing = async (props: Props) => {
+const Billing = async (props: PageProps) => {
   const { session_id } = props.searchParams ?? {
     session_id: '',
   }
