@@ -5,12 +5,13 @@ import Stripe from 'stripe'
 import BillingDashboard from './_components/billing-dashboard'
 
 
-type PageProps = {
-  searchParams?: { [key: string]: string | undefined }
+type Props = {
+  searchParams?: Promise<{ [key: string]: string | undefined }>
 }
 
-const Billing = async (props: PageProps) => {
-  const { session_id } = props.searchParams ?? {
+
+const Billing = async (props: Props) => {
+  const { session_id } = await props.searchParams ?? {
     session_id: '',
   }
   if (session_id) {
